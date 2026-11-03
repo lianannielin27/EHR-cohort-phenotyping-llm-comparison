@@ -1,0 +1,3629 @@
+[
+  {
+    "person_id": 11427577,
+    "deid_note_key": "D79514F84C1B99",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 11427577,
+    "deid_note_key": "D615FE0C75CD26",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5720134,
+    "deid_note_key": "D3613642F74049",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5720134,
+    "deid_note_key": "DCCCD5F040C6D8",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8108431,
+    "deid_note_key": "D24BD1C25ECD01",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8108431,
+    "deid_note_key": "D38C5AF74D6B65",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7902494,
+    "deid_note_key": "DAB9D1CB7EA684",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7902494,
+    "deid_note_key": "D051152919830B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8007679,
+    "deid_note_key": "D728C58DB8BD1C",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8007679,
+    "deid_note_key": "D046332A2408EA",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8746998,
+    "deid_note_key": "D1CFB1B08741CF",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8746998,
+    "deid_note_key": "DE12B8A8B55F13",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10309080,
+    "deid_note_key": "D4F59F078E6035",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10309080,
+    "deid_note_key": "D9A2FE25C89846",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8292119,
+    "deid_note_key": "D6BBA13B29746C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8292119,
+    "deid_note_key": "D96D8C5EC935E7",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8379359,
+    "deid_note_key": "D656EE01D919F2",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8379359,
+    "deid_note_key": "D069DEE0212B71",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8327822,
+    "deid_note_key": "D61288A913A527",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8327822,
+    "deid_note_key": "D64827D7C2012C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9495612,
+    "deid_note_key": "D9C0ED7A7D7A84",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9495612,
+    "deid_note_key": "D692785418A0A7",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1597261,
+    "deid_note_key": "DA6C3202527E0A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1597261,
+    "deid_note_key": "D310F97D1F0C0C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3916481,
+    "deid_note_key": "D9DE7EB3B0FBB7",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3916481,
+    "deid_note_key": "D63AE62509AFCF",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9036612,
+    "deid_note_key": "D9D750A8B689C6",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9036612,
+    "deid_note_key": "D74E9C4FF20513",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9342290,
+    "deid_note_key": "DC35D1D29D140C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9342290,
+    "deid_note_key": "D302B72EA5A749",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 279968,
+    "deid_note_key": "D1764132C08212",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 279968,
+    "deid_note_key": "D24BEACB3A479B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9462449,
+    "deid_note_key": "D35FEF55763739",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9462449,
+    "deid_note_key": "D1F4A25E88F175",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 13289963,
+    "deid_note_key": "D82CD207D31828",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 13289963,
+    "deid_note_key": "D3F32F937BCECF",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9022648,
+    "deid_note_key": "DCB3CFFA073FD5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9022648,
+    "deid_note_key": "D463F3A59203CD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8334337,
+    "deid_note_key": "D5759458A6F837",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5044564,
+    "deid_note_key": "D4B6F2CD7E3791",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5044564,
+    "deid_note_key": "D6EF068971A904",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 11514213,
+    "deid_note_key": "D3CE3C0BEE4137",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 11514213,
+    "deid_note_key": "DFA8DE0DF5C63F",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8567096,
+    "deid_note_key": "D9DDCBF11DAD9A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4398246,
+    "deid_note_key": "DE068AE8612A96",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8768482,
+    "deid_note_key": "DD52DB4860D64E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8768482,
+    "deid_note_key": "D500D32C7C0322",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3896831,
+    "deid_note_key": "DC5E8B7C1E6AAB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9469236,
+    "deid_note_key": "D5532D15B32CBA",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9469236,
+    "deid_note_key": "D8DBC898D66954",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9303209,
+    "deid_note_key": "DDDE208C0A2DA7",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9303209,
+    "deid_note_key": "DE478ADEEEEC56",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3883862,
+    "deid_note_key": "DB37626599602B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3883862,
+    "deid_note_key": "D48A51AE109C26",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9072632,
+    "deid_note_key": "D91FAC4237CA4E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9072632,
+    "deid_note_key": "D606BDB68760DE",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8254018,
+    "deid_note_key": "D4F8E14638E61E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8254018,
+    "deid_note_key": "DC766703317FA2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8237219,
+    "deid_note_key": "D6E62D9F928387",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8237219,
+    "deid_note_key": "D41FE6ECB5F5E9",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 307447,
+    "deid_note_key": "D81ADC90AD5330",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 307447,
+    "deid_note_key": "D00924EABBEB83",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8600288,
+    "deid_note_key": "DE89A8E96E8965",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8600288,
+    "deid_note_key": "D8618F9E3F384C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9194028,
+    "deid_note_key": "DAAC3C98464AF3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9194028,
+    "deid_note_key": "DEB56AF3B7B000",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8709456,
+    "deid_note_key": "D924FD7BC1BBAA",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8709456,
+    "deid_note_key": "DF89BD59B00380",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7406595,
+    "deid_note_key": "DCF813372F5026",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7406595,
+    "deid_note_key": "D9593AD9F0592D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9440701,
+    "deid_note_key": "D127C189AE8B8A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9440701,
+    "deid_note_key": "DAC3F8F40C7DD3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3590816,
+    "deid_note_key": "D5C8C49FD10E85",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3590816,
+    "deid_note_key": "D1779421D377A9",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4606852,
+    "deid_note_key": "D0E6AFFDAFF98F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4606852,
+    "deid_note_key": "D771F30ABFEA89",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9187236,
+    "deid_note_key": "DCE01DE570E727",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9187236,
+    "deid_note_key": "DD21865CB79867",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8712855,
+    "deid_note_key": "DC0880EBE73E20",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8712855,
+    "deid_note_key": "DCFF55AACF93B0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8528796,
+    "deid_note_key": "D44A282952A8C4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8528796,
+    "deid_note_key": "DA1EF8F40EB1B2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9441566,
+    "deid_note_key": "D188C43216D422",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 598205,
+    "deid_note_key": "DA0AEC2B0450EE",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 598205,
+    "deid_note_key": "DBDFF75DFA96AF",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8600554,
+    "deid_note_key": "DCD61F4C5BB620",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8600554,
+    "deid_note_key": "D9B1509AC62351",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9031916,
+    "deid_note_key": "D2B8B42819F94F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4309744,
+    "deid_note_key": "DF6ED2E304D0CC",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4309744,
+    "deid_note_key": "D7CCE88BF406EA",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9517402,
+    "deid_note_key": "D8BEB03ADB6B51",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9517402,
+    "deid_note_key": "D34046F9F401B5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1605874,
+    "deid_note_key": "D162DF0A3E2870",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1605874,
+    "deid_note_key": "D09212BFD899B9",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2586311,
+    "deid_note_key": "D70689473ED3DB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2586311,
+    "deid_note_key": "D3522ABAF639B0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8972749,
+    "deid_note_key": "DE17FFBE0B4665",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8972749,
+    "deid_note_key": "DF4D8555D871E0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4199823,
+    "deid_note_key": "D112B45FD180AC",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 11454672,
+    "deid_note_key": "D38E1A2A264F6F",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 11454672,
+    "deid_note_key": "D6361B108F647F",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8175228,
+    "deid_note_key": "D7E6C7D36258D1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8175228,
+    "deid_note_key": "DAD7CAD5970094",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8279329,
+    "deid_note_key": "DC60A79F967DC8",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8279329,
+    "deid_note_key": "D9A32B6D6737F2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10199051,
+    "deid_note_key": "DA2F3224FE59E1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10199051,
+    "deid_note_key": "DC4448960383C3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7316997,
+    "deid_note_key": "DBBF4FEAFBE80E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7316997,
+    "deid_note_key": "D28EA40236638A",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8327333,
+    "deid_note_key": "DC14B58B7FBEBB",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8327333,
+    "deid_note_key": "D850D07FEB078D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": true,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4860462,
+    "deid_note_key": "D36E27F02BA3A5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 4860462,
+    "deid_note_key": "D8ED2674B3BF6D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8723159,
+    "deid_note_key": "DAAB06D108EDB3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8723159,
+    "deid_note_key": "D56E9EAF67979D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 12698,
+    "deid_note_key": "D6629214736842",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 12698,
+    "deid_note_key": "D5B8638AEE52C1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2685373,
+    "deid_note_key": "D9D608C2A1C35D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2685373,
+    "deid_note_key": "D4CEB0D89E28E1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4587205,
+    "deid_note_key": "D0E6CE16EFA442",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4587205,
+    "deid_note_key": "DEBFAA5DCD5D09",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8259980,
+    "deid_note_key": "DBE4ABDA108204",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8259980,
+    "deid_note_key": "D6C38C25061509",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 767185,
+    "deid_note_key": "DC0BB40C06579C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 767185,
+    "deid_note_key": "D5060DA514DB5A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9378819,
+    "deid_note_key": "D2B657E02C0DB4",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9378819,
+    "deid_note_key": "DC1B4E031E8E99",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1481078,
+    "deid_note_key": "D6BD8FF02259AE",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7950844,
+    "deid_note_key": "DD6E154007B4A4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7950844,
+    "deid_note_key": "D167235F215BAE",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8125285,
+    "deid_note_key": "D6410104FF0B39",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8125285,
+    "deid_note_key": "D88738FA9F8B5C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9336399,
+    "deid_note_key": "DDF335F2B8B164",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9336399,
+    "deid_note_key": "D2D7BABC8CF0F9",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 983782,
+    "deid_note_key": "D1D4C90758FCA8",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 983782,
+    "deid_note_key": "D0BD7012068708",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10374908,
+    "deid_note_key": "DF4270BC87D85A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10374908,
+    "deid_note_key": "D8897C51DD35CD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8487169,
+    "deid_note_key": "DE34607DAC5892",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8487169,
+    "deid_note_key": "DD179E6690077C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8021593,
+    "deid_note_key": "DB02CCAB836A2F",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8021593,
+    "deid_note_key": "D137C940A3E60B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8559274,
+    "deid_note_key": "DE63EFE21F6ADF",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8559274,
+    "deid_note_key": "D62DE7C3A16B3B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9306630,
+    "deid_note_key": "D07EEAC046DDDC",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9306630,
+    "deid_note_key": "D31488E46DE813",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8790930,
+    "deid_note_key": "D50906E2D0ED96",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8790930,
+    "deid_note_key": "D16EC6C32D7B19",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5095424,
+    "deid_note_key": "D077B5DC3E8108",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5095424,
+    "deid_note_key": "D35255C531E54B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9038414,
+    "deid_note_key": "DC201C31B9088C",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9038414,
+    "deid_note_key": "DB8D458CE6F817",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8661587,
+    "deid_note_key": "D7A558FE92018D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8661587,
+    "deid_note_key": "D1BED480CBD353",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1354413,
+    "deid_note_key": "D1C528A781E692",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1354413,
+    "deid_note_key": "DF0861573FCBD4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7004178,
+    "deid_note_key": "D263C95E391A31",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7004178,
+    "deid_note_key": "DAE1994F5C3BE8",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7865240,
+    "deid_note_key": "D22DA68FC5CB69",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8392389,
+    "deid_note_key": "D452A736978F80",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8392389,
+    "deid_note_key": "D1D1833B3CB54D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8369836,
+    "deid_note_key": "D11D9EE4868CFC",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8369836,
+    "deid_note_key": "D4AB771D1B7D0C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8443641,
+    "deid_note_key": "D3C22030808DD7",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 8443641,
+    "deid_note_key": "D1085A81503B20",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 3019637,
+    "deid_note_key": "D4A7ED2CECC9C5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3019637,
+    "deid_note_key": "D3B500FE04ED4E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3999443,
+    "deid_note_key": "D28DA25142173F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3999443,
+    "deid_note_key": "DB75A20EB85609",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8133610,
+    "deid_note_key": "D7D33FC5AA12DF",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8133610,
+    "deid_note_key": "D807ACF0EE46FD",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8153052,
+    "deid_note_key": "DCED16E3BFD992",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8153052,
+    "deid_note_key": "DC563D52047C0F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8580210,
+    "deid_note_key": "D4ED05F08BAD7C",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8580210,
+    "deid_note_key": "D09EABCEE2D336",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9120793,
+    "deid_note_key": "D9239D4575DB50",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9120793,
+    "deid_note_key": "D5519B4FFEDEE9",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8251525,
+    "deid_note_key": "D0C2D59A0E9B3D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8251525,
+    "deid_note_key": "DF2D20ECA3E938",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 6015070,
+    "deid_note_key": "DA0F11E666CE37",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 6015070,
+    "deid_note_key": "D36D66DA13A585",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9103809,
+    "deid_note_key": "D1E59C21A10710",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9103809,
+    "deid_note_key": "D73CCFCA919461",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 12372229,
+    "deid_note_key": "DA6C7F5B0F3BF5",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 12372229,
+    "deid_note_key": "DA88265F5FDBC2",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8081892,
+    "deid_note_key": "DE44E1DEE31E36",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8081892,
+    "deid_note_key": "DDA488A985B07C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9277489,
+    "deid_note_key": "DC7358D3C49653",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9277489,
+    "deid_note_key": "D1A4A7B01CFB2B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7887760,
+    "deid_note_key": "D49DA6C33ACF02",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7887760,
+    "deid_note_key": "D2E86BD5CF2FE4",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 6721123,
+    "deid_note_key": "D5B70E245BB412",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 6721123,
+    "deid_note_key": "D5C3B7B58DEF7D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8687915,
+    "deid_note_key": "D8392AB002D32C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8687915,
+    "deid_note_key": "D83DB3493B4E3B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7882003,
+    "deid_note_key": "D36C97DE89D166",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7882003,
+    "deid_note_key": "D2E7E0A2B6B3CE",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9589884,
+    "deid_note_key": "DC9FACBA3F987C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9589884,
+    "deid_note_key": "D7BEC616B28EE4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9546223,
+    "deid_note_key": "DEDD90F63796E0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9546223,
+    "deid_note_key": "D1E093E12C3B6D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4817161,
+    "deid_note_key": "DFCDA251EB4F6F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4817161,
+    "deid_note_key": "D4BAE202494283",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8333659,
+    "deid_note_key": "D62FD85EA43A03",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8333659,
+    "deid_note_key": "D6809D8E03204B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1987842,
+    "deid_note_key": "D81B950560A4BD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1987842,
+    "deid_note_key": "D0C6CF0315738D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8502087,
+    "deid_note_key": "D557CCC07100B5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8502087,
+    "deid_note_key": "DF7D174D62800B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 12571415,
+    "deid_note_key": "D0BC4E1C7A63B2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 12571415,
+    "deid_note_key": "DB4898F527A75D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3639797,
+    "deid_note_key": "DF4609E24345F9",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3639797,
+    "deid_note_key": "D2C7D0F070AA70",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1220804,
+    "deid_note_key": "D41CB53C8C0B77",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1220804,
+    "deid_note_key": "DE8D864B7D65BB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2486515,
+    "deid_note_key": "DE79F3FB739065",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2486515,
+    "deid_note_key": "D4DE283809C871",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 7030877,
+    "deid_note_key": "D3432F5140C168",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7030877,
+    "deid_note_key": "D05D949166891C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7669451,
+    "deid_note_key": "D12818297329F3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7669451,
+    "deid_note_key": "D8E32FC3ECDB2C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7889059,
+    "deid_note_key": "D5870A1A920C2F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7889059,
+    "deid_note_key": "D15D0723C97842",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8649348,
+    "deid_note_key": "D6A3325E8A639F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8649348,
+    "deid_note_key": "D0A00AD8828B60",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5705508,
+    "deid_note_key": "D3C275E8B7BF08",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 5705508,
+    "deid_note_key": "D64389FB4C5568",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4659111,
+    "deid_note_key": "D27586030FEA96",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4659111,
+    "deid_note_key": "D55BCE355A9F4C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10423838,
+    "deid_note_key": "D2FABC550623BE",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 10423838,
+    "deid_note_key": "D9BC9288DEACEA",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7853428,
+    "deid_note_key": "D29762DD12A1BB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7853428,
+    "deid_note_key": "D17849FB0BFAEB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4521870,
+    "deid_note_key": "D85CA0D6576E34",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4521870,
+    "deid_note_key": "D0427ABE65B55B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9269949,
+    "deid_note_key": "D855122D559C13",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9269949,
+    "deid_note_key": "D800D41F044AD8",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4412807,
+    "deid_note_key": "D517274EEC9D93",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4412807,
+    "deid_note_key": "DC0428AF239438",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10468822,
+    "deid_note_key": "D13D005C06CB97",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10468822,
+    "deid_note_key": "D76FBBB060FD26",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8480437,
+    "deid_note_key": "D6750BD40763C8",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8480437,
+    "deid_note_key": "D6969199CC25B7",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2323670,
+    "deid_note_key": "DF24128AF57B74",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2323670,
+    "deid_note_key": "D5E63498A76F3B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8860270,
+    "deid_note_key": "D3136383683A2D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8860270,
+    "deid_note_key": "DE78774ABAFA34",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8959099,
+    "deid_note_key": "DDE6BB3EA64F37",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8959099,
+    "deid_note_key": "DAA4635E8DCD43",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8668859,
+    "deid_note_key": "D6F60DA7590009",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8668859,
+    "deid_note_key": "DBED01D775C4E5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10204140,
+    "deid_note_key": "D33DFE040B0628",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 10204140,
+    "deid_note_key": "D6FA54D8A7613E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7892292,
+    "deid_note_key": "D2222B277C5BF1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7892292,
+    "deid_note_key": "D1C78ABDE0CB62",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9690802,
+    "deid_note_key": "D01E3BE049A5DA",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9690802,
+    "deid_note_key": "D7950815076E15",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7956911,
+    "deid_note_key": "D5854BBB6B17CE",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7956911,
+    "deid_note_key": "D6162A427AC2E7",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 662670,
+    "deid_note_key": "DFE49EE42FCE27",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 662670,
+    "deid_note_key": "DC14DAE4F651F7",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1343814,
+    "deid_note_key": "D41366091569B7",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1343814,
+    "deid_note_key": "DD2C446DE4B56F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8356910,
+    "deid_note_key": "DC487AC09153A6",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 8356910,
+    "deid_note_key": "DB3090BB7C8C1F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8818847,
+    "deid_note_key": "D9EED61954251F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8818847,
+    "deid_note_key": "D724D13F273CC1",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8363264,
+    "deid_note_key": "D7EBD7D0EDA707",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8363264,
+    "deid_note_key": "DCF23F8F381E72",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8665928,
+    "deid_note_key": "DAE5ED6CDDF28D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8665928,
+    "deid_note_key": "D73F2E6BEDEE75",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7924122,
+    "deid_note_key": "D8573DE80BE43E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7924122,
+    "deid_note_key": "DF08809C201133",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9094989,
+    "deid_note_key": "D1A1030F1B49D3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9094989,
+    "deid_note_key": "DA7B9F6D3C7DC2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8199708,
+    "deid_note_key": "D4587410AE3A11",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8199708,
+    "deid_note_key": "D3D7C4E128F5A0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7881780,
+    "deid_note_key": "D8991FDD656ACE",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7881780,
+    "deid_note_key": "D3226DC162F29B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8355432,
+    "deid_note_key": "D64CD7F4C71A7B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8355432,
+    "deid_note_key": "D755DBEC4ACC61",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1453763,
+    "deid_note_key": "D545D5445EACB8",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1453763,
+    "deid_note_key": "D2814354498964",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9587575,
+    "deid_note_key": "D461E9296F69C3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9587575,
+    "deid_note_key": "DFC6F391315209",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8074356,
+    "deid_note_key": "DCF22D3702AB5F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8074356,
+    "deid_note_key": "D95D3B4B1E3D2D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8662632,
+    "deid_note_key": "DB450EEFCA2C83",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8662632,
+    "deid_note_key": "D0D4BC3FA58C41",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9462345,
+    "deid_note_key": "D3CB97F8CD8856",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9462345,
+    "deid_note_key": "D030B42455A2A4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 3543890,
+    "deid_note_key": "D8038DDA5E06B0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3543890,
+    "deid_note_key": "D4FAAC0F5EB003",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8114951,
+    "deid_note_key": "D533F5CD89FACA",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8114951,
+    "deid_note_key": "D8A1E4936F496C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7998545,
+    "deid_note_key": "DD61220D8E72FD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7998545,
+    "deid_note_key": "D1CF9481F6B997",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8836276,
+    "deid_note_key": "DEBFFC593CFA8D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8836276,
+    "deid_note_key": "D9C5AA2EDE6C39",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8308993,
+    "deid_note_key": "D7E2E40A3A4EE2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8308993,
+    "deid_note_key": "DC19183BACE8D1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8208899,
+    "deid_note_key": "D134BB10E0411D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8208899,
+    "deid_note_key": "D5BED4BB62BD97",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2627739,
+    "deid_note_key": "DDE0658448438C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2627739,
+    "deid_note_key": "DCC7B8F1A7A81A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9647805,
+    "deid_note_key": "D26C7E1B7A1A5C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9647805,
+    "deid_note_key": "DDAC97BE162261",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7944092,
+    "deid_note_key": "DCFCA5FFA7AC97",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7944092,
+    "deid_note_key": "D3882FAA6329E6",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7689056,
+    "deid_note_key": "D0A88438A7C131",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7689056,
+    "deid_note_key": "D8E322C7B47194",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": true,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4696400,
+    "deid_note_key": "D3CB376E9BBF55",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4696400,
+    "deid_note_key": "DC6E824F2FA03B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7887146,
+    "deid_note_key": "D76CA39D822F75",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7887146,
+    "deid_note_key": "D71717376945E4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8063063,
+    "deid_note_key": "D6440E4ECEFC7E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8063063,
+    "deid_note_key": "D1422B37AECB5B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8416419,
+    "deid_note_key": "D42764E3C4312B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8833611,
+    "deid_note_key": "D23BB1C27E91C6",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8833611,
+    "deid_note_key": "D43EA27B352205",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9102229,
+    "deid_note_key": "DB94B32704FB91",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9102229,
+    "deid_note_key": "D2B458225ECB98",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 8983460,
+    "deid_note_key": "D06A57883BBC83",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8983460,
+    "deid_note_key": "DA7D3E9CF44396",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8725400,
+    "deid_note_key": "DD43C50815780E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8725400,
+    "deid_note_key": "DC7E49A82C3FE1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8881906,
+    "deid_note_key": "D3BC0B15A35BA8",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8881906,
+    "deid_note_key": "DCA63A00AE2F36",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9403557,
+    "deid_note_key": "DD1317319AEA04",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9403557,
+    "deid_note_key": "D471A852683296",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4680034,
+    "deid_note_key": "D3CBF3E5643DD3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4680034,
+    "deid_note_key": "DB87494E533E69",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2209263,
+    "deid_note_key": "D57B3168549E8E",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2209263,
+    "deid_note_key": "D0A20F8521D8F0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1136257,
+    "deid_note_key": "DD9CB61C7127AD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1136257,
+    "deid_note_key": "D0E5FCB5E8B7FC",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2354042,
+    "deid_note_key": "DB105D37011759",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 2354042,
+    "deid_note_key": "DC3068A727262A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8903697,
+    "deid_note_key": "D017B9EA016765",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8903697,
+    "deid_note_key": "D866C142362F45",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8964577,
+    "deid_note_key": "D54BBEEED2D0F8",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8964577,
+    "deid_note_key": "DBB25786A84C3A",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3208517,
+    "deid_note_key": "D68C956DBB182E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3208517,
+    "deid_note_key": "DACB0C6BFCEB75",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9308118,
+    "deid_note_key": "D2574A8BE7467A",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9308118,
+    "deid_note_key": "D5CB651C820B7A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8032931,
+    "deid_note_key": "D173E4AB454897",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8032931,
+    "deid_note_key": "D2C22EC774A72B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8123981,
+    "deid_note_key": "DC7346BA0118C2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8123981,
+    "deid_note_key": "D8502D180727E3",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9539501,
+    "deid_note_key": "DE4B92F770CA2F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9539501,
+    "deid_note_key": "DEB4FAF01FBC3F",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8609354,
+    "deid_note_key": "DF69625FA96DF1",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 8609354,
+    "deid_note_key": "DABD2458350CCD",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7484693,
+    "deid_note_key": "DA83751E39A02F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7484693,
+    "deid_note_key": "D2B33F10CAD9FD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8350066,
+    "deid_note_key": "DCB38C19B42D02",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8350066,
+    "deid_note_key": "DAA4685A7E1C35",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 6275185,
+    "deid_note_key": "D09DAD287BA195",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 6275185,
+    "deid_note_key": "DBF7CD21CF2E50",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9259480,
+    "deid_note_key": "D39BFD046C78A0",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9259480,
+    "deid_note_key": "D35C8B1914255D",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4329890,
+    "deid_note_key": "D67EFA6FA3F43F",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4329890,
+    "deid_note_key": "D61FB99BFBCDAE",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1873794,
+    "deid_note_key": "DD3A0DC522F9E4",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1873794,
+    "deid_note_key": "DC89AA1DA93B98",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1424161,
+    "deid_note_key": "D7A44F96C3F31F",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": true,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1424161,
+    "deid_note_key": "D562ECB2D1AFAB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3952313,
+    "deid_note_key": "DDB2533FB8E95C",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3952313,
+    "deid_note_key": "D61D403814483E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8421793,
+    "deid_note_key": "D6B732AAF0D1CB",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8421793,
+    "deid_note_key": "D64687672C034C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8738899,
+    "deid_note_key": "DBE34697A735E9",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8738899,
+    "deid_note_key": "D86E9A3953E28E",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 175593,
+    "deid_note_key": "D0A23DD7580358",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 175593,
+    "deid_note_key": "DE7CE3B8F5CC3C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8713270,
+    "deid_note_key": "DE571F897C8C85",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8713270,
+    "deid_note_key": "D219CCBB1260AD",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7490708,
+    "deid_note_key": "D71EDCA561E2E7",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 7490708,
+    "deid_note_key": "DB36349F8C6930",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 7912356,
+    "deid_note_key": "D2B4DE2B105B78",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 7912356,
+    "deid_note_key": "DA22FF7D9A391A",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1779232,
+    "deid_note_key": "D15357D2FABC7D",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 1779232,
+    "deid_note_key": "D9749C93564951",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9389748,
+    "deid_note_key": "DD4883B092DCAC",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": true
+  },
+  {
+    "person_id": 9389748,
+    "deid_note_key": "DB15F97648AD4C",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8542922,
+    "deid_note_key": "DD759816179600",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8542922,
+    "deid_note_key": "D744D5CA411CC9",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8648283,
+    "deid_note_key": "D17AD5770ECBF2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8648283,
+    "deid_note_key": "D4A92CD5814CC5",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8117491,
+    "deid_note_key": "D0408E5430A95B",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8117491,
+    "deid_note_key": "D394A6D8308289",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8086214,
+    "deid_note_key": "DE4EF7BA147436",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8086214,
+    "deid_note_key": "D74CDF2B2C359B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": true,
+    "hypertension_mentioned": true,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3596464,
+    "deid_note_key": "DDA9426B1C16EA",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 3596464,
+    "deid_note_key": "D5C817CAC0A0D2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9087839,
+    "deid_note_key": "D5258E53EEC97B",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 9087839,
+    "deid_note_key": "D271FAAD2833A8",
+    "ckd_mentioned": true,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4644227,
+    "deid_note_key": "D4A1C120A4BEED",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 4644227,
+    "deid_note_key": "D53715DBCA5108",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8333784,
+    "deid_note_key": "DC0618171AE850",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8333784,
+    "deid_note_key": "D7CCC41F420FD2",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  },
+  {
+    "person_id": 8059017,
+    "deid_note_key": "D4C7F0185680E7",
+    "ckd_mentioned": false,
+    "albuminuria_mentioned": false,
+    "hypertension_mentioned": false,
+    "diabetic_nephropathy_mentioned": false,
+    "lisinopril_mentioned": false
+  }
+]
