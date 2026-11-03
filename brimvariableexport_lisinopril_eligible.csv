@@ -1,0 +1,41 @@
+variable_name,instruction,aggregation_instruction,prompt_template,aggregation_prompt_template,variables,instrument,instrument_order,variable_order,variable_type,scope,is_structured_data,option_definitions,aggregation_option_definitions,only_use_true_value_in_aggregation,exclude_default_value_from_aggregation,short_circuit_results,default_value_for_empty_response,include_variable_in_generation,include_today_date_in_prompt,use_advanced_model,read_document_text,document_start_date,document_end_date,restrict_variable_to_specific_documents,restrict_by_document_name_mode,restrict_by_document_date_mode,preconditions,validation_match_mode,validation_case_sensitive,validation_range,validation_range_unit,validation_calendar_unit
+albuminuria_mentioned,"Determine whether the clinical note contains any mention of albuminuria or related terms indicating the presence of albumin or protein in the urine. This includes the words ""albuminuria,"" ""albuminuric,"" ""microalbuminuria,"" ""macroalbuminuria,"" or ""proteinuria"" anywhere in the note. The presence of these terms indicates that albuminuria is mentioned, regardless of whether it is affirmed, negated, or qualified.
+
+Return True if any of these terms appear in the note, False otherwise.
+
+Example:  
+If the note says ""The patient has persistent albuminuria,"" return True.  
+If the note says ""No evidence of proteinuria,"" return True because the concept is explicitly mentioned.  
+If the note contains no mention of albuminuria or proteinuria-related terms, return False.","Return true if any true value, else false.",,,,,,,boolean,one_per_note,False,,,True,True,True,False,True,False,False,True,,,,none,none,null,exact,False,1.0,hours,day
+CKD_mentioned,"Determine whether the clinical note contains any evidence that the patient has Chronic Kidney Disease (CKD). Chronic Kidney Disease is a long-term condition involving gradual loss of kidney function. Evidence includes any mention of CKD, chronic kidney failure, chronic renal insufficiency, or related diagnoses. Synonyms and related terms count as evidence; the exact phrase ""CKD"" is not required. Ignore statements that deny or exclude CKD.
+
+Return True if the note includes any such evidence that the patient has CKD, False otherwise.
+
+Example:  
+If the note says ""The patient has stage 3 chronic kidney disease with declining renal function,"" return True.  
+If the note says ""No history of kidney problems,"" return False.","Return true if any true value, else false.",,,,,,,boolean,one_per_note,False,,,True,True,True,False,True,False,False,True,,,,none,none,null,exact,False,1.0,hours,day
+diabetic_nephropathy_mentioned,"Determine whether the clinical note contains any mention of diabetic nephropathy or related terms indicating diabetic kidney disease. Diabetic nephropathy refers to kidney damage caused by diabetes, also known as diabetic kidney disease or diabetic nephrosis.
+
+Return True if the note includes any of the following terms: ""diabetic nephropathy,"" ""diabetic kidney disease,"" or ""diabetic nephrosis."" Return False otherwise.
+
+Consider any documented, recorded, or noted presence of these terms as evidence, regardless of context or negation. For example, even if the note states ""No evidence of diabetic nephropathy,"" return True because the condition is explicitly mentioned.
+
+Example:  
+If the note says ""The patient has diabetic nephropathy,"" return True.  
+If the note says ""No evidence of diabetic nephropathy,"" return True.  
+If the note says ""The kidneys are normal,"" return False.","Return true if any true value, else false.",,,,,,,boolean,one_per_note,False,,,True,True,True,False,True,False,False,True,,,,none,none,null,exact,False,1.0,hours,day
+hypertension_mentioned,"Determine whether the clinical note contains any mention of the terms ""hypertension"" or ""hypertensive,"" which refer to high blood pressure or related conditions. Mentions include any statement indicating the presence, history, or consideration of hypertension, regardless of context or negation.
+
+Return True if the note includes the words ""hypertension"" or ""hypertensive"" anywhere in the text. Return False otherwise.
+
+Example:  
+If the note says ""The patient has a history of hypertension,"" return True.  
+If the note says ""No history of hypertension,"" return True because the term is explicitly mentioned.  
+If the note says ""Blood pressure is normal,"" return False because neither term appears.","Return true if any true value, else false.",,,,,,,boolean,one_per_note,False,,,True,True,True,False,True,False,False,True,,,,none,none,null,exact,False,1.0,hours,day
+lisinopril_mentioned,"Determine whether the clinical note contains any mention of the medication lisinopril or any of its brand names. Lisinopril is an angiotensin-converting enzyme (ACE) inhibitor used to treat high blood pressure and heart failure. Brand names include Zestril, Prinivil, Qbrelis, Zestoretic, and Prinzide.
+
+Return True if the note includes any occurrence of the words ""lisinopril,"" ""Zestril,"" ""Prinivil,"" ""Qbrelis,"" ""Zestoretic,"" or ""Prinzide"" in any context. Return False otherwise.
+
+Example:  
+If the note says ""The patient was started on Prinivil for hypertension,"" return True.  
+If the note says ""No ACE inhibitors were prescribed,"" return False.","Return true if any true value, else false.",,,,,,,boolean,one_per_note,False,,,True,True,True,False,True,False,False,True,,,,none,none,null,exact,False,1.0,hours,day
