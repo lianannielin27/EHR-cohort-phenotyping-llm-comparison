@@ -72,6 +72,8 @@ Baseline values were selected from 365 days before through the index date, and f
 
 Changes were evaluated using a Wilcoxon signed-rank test as the primary analysis, with a paired t-test and effect-size calculations as sensitivity analyses.
 
+The structured EHR cohort construction and creatinine extraction are implemented in [`sql/cohort_treatment_analysis.sql`](sql/cohort_treatment_analysis.sql).
+
 ### Table 2. Creatinine Change Following Lisinopril Treatment
 
 | Creatinine Change | Number of Patients | Percentage |
@@ -117,13 +119,19 @@ These findings suggest that lisinopril initiation was associated with a modest i
 
 ### Clinical Note Selection
 
-Progress Notes were selected because they provide longitudinal clinical documentation of CKD management and lisinopril use, including treatment decisions, medication changes, patient response, adverse effects, and clinicians' assessments. Compared with administrative or procedure-specific notes, Progress Notes are more likely to capture the ongoing clinical context relevant to evaluating lisinopril treatment.
+Progress Notes were selected because they provide longitudinal clinical documentation of CKD management and lisinopril use, including treatment decisions, medication changes, patient response, adverse effects, and clinicians' assessments.
+
+Compared with administrative or procedure-specific notes, Progress Notes are more likely to capture the ongoing clinical context relevant to evaluating lisinopril treatment.
 
 Notes were restricted to 7 days before through 1 year after cohort entry. This window captures clinical context surrounding cohort entry as well as short- and longer-term follow-up while reducing inclusion of unrelated documentation from distant periods.
 
-To keep inference feasible across SQL, BRIM, and multiple LLMs, 250 eligible patients were randomly sampled and up to two qualifying Progress Notes per patient were retained. Sampling patients before notes reduced overrepresentation of patients with extensive documentation. Patients with only one qualifying note were retained to avoid introducing a requirement for frequent healthcare encounters, which could create selection bias.
+To keep inference feasible across SQL, BRIM, and multiple LLMs, 250 eligible patients were randomly sampled and up to two qualifying Progress Notes per patient were retained. Sampling patients before notes reduced overrepresentation of patients with extensive documentation.
+
+Patients with only one qualifying note were retained to avoid introducing a requirement for frequent healthcare encounters, which could create selection bias.
 
 The final analytic dataset contained **403 Progress Notes from 207 patients**, including 11 patients with only one qualifying Progress Note.
+
+The clinical-note sampling procedure is implemented in [`sql/eligible_progressnotes_sample.sql`](sql/eligible_progressnotes_sample.sql).
 
 ### Clinical Concepts
 
@@ -146,68 +154,97 @@ Four extraction approaches were compared:
 
 ### SQL Pattern Matching
 
-The SQL pattern-matching analysis can be reproduced in AWS Athena using the provided cohort and clinical-note extraction queries.
+Rule-based clinical concept extraction is implemented in [`sql/pattern_matching.sql`](sql/pattern_matching.sql).
+
+The SQL query uses `CASE WHEN` statements with case-insensitive text matching to assign TRUE/FALSE values to the five concepts for every note.
 
 The workflow can be reproduced as follows:
 
-- Run `eligible_progressnotes_sample.sql` to start with the eligible CKD cohort and extract Progress Notes from 7 days before through 1 year after cohort entry. This randomly samples up to 250 eligible patients and retains up to two qualifying Progress Notes per patient.
-- Run `pattern_matching.sql`.
-- Apply the predefined terms for the five variables: `CKD_MENTIONED`, `ALBUMINURIA_MENTIONED`, `HYPERTENSION_MENTIONED`, `DIABETIC_NEPHROPATHY_MENTIONED`, and `LISINOPRIL_MENTIONED`.
-- Export the resulting note-level classifications from Athena as CSV/JSON for downstream analysis.
+1. Run [`sql/eligible_progressnotes_sample.sql`](sql/eligible_progressnotes_sample.sql) to extract the analytic Progress Note sample.
+2. Run [`sql/pattern_matching.sql`](sql/pattern_matching.sql).
+3. Apply the predefined terms for the five variables.
+4. Export the resulting note-level classifications from Athena as CSV/JSON for downstream analysis.
 
-The SQL query uses `CASE WHEN` statements with case-insensitive text matching to assign a TRUE/FALSE value to each concept for every note. Because the exact search terms and logic are contained in the provided SQL code, the extraction can be reproduced without manually reconstructing the concept definitions.
+The same SQL script also calculates note-level and patient-level concept counts.
 
 ---
 
 ### BRIM Extraction
 
-The following files are provided for reproducibility:
+The BRIM variable definitions used for clinical concept extraction are provided in [`brim/BrimVariableExport_lisinopril_eligible.csv`](brim/BrimVariableExport_lisinopril_eligible.csv).
 
-- `eligible_progressnotes_BRIM_ready.csv` — standardized clinical-note input containing `NOTE_ID`, `PERSON_ID`, `NOTE_DATETIME`, `NOTE_TEXT`, and `NOTE_TITLE`
-- `BrimVariableExport_lisinopril_eligible.csv` — exported BRIM definitions for the five extraction variables
-- Final combined BRIM results — exported document-level classifications used in the analysis
+Clinical notes are standardized to the following BRIM schema:
 
-To reproduce the analysis, create a BRIM project and upload `eligible_progressnotes_BRIM_ready.csv`. Then use the definitions in `BrimVariableExport_lisinopril_eligible.csv` to configure the same five variables: `CKD_MENTIONED`, `ALBUMINURIA_MENTIONED`, `HYPERTENSION_MENTIONED`, `DIABETIC_NEPHROPATHY_MENTIONED`, and `LISINOPRIL_MENTIONED`.
+- `NOTE_ID`
+- `PERSON_ID`
+- `NOTE_DATETIME`
+- `NOTE_TEXT`
+- `NOTE_TITLE`
 
-Run BRIM inference across the uploaded notes and export the resulting document-level classifications. If the results are exported in BRIM's long format, transform them into a wide format with one row per `NOTE_ID` and one column for each of the five TRUE/FALSE variables. Results can then be aligned with the other extraction methods using `NOTE_ID`.
+To reproduce the analysis:
+
+1. Create a BRIM project.
+2. Upload the standardized clinical-note input.
+3. Configure the five variables using [`brim/BrimVariableExport_lisinopril_eligible.csv`](brim/BrimVariableExport_lisinopril_eligible.csv).
+4. Run BRIM inference across the uploaded notes.
+5. Export the resulting document-level classifications.
+6. If BRIM exports results in long format, transform them into wide format with one row per `NOTE_ID` and one column for each TRUE/FALSE variable.
+
+Results can then be aligned with the other extraction approaches using `NOTE_ID`.
 
 ---
 
 ### Qwen3-8B-AWQ Extraction
 
-The Qwen analysis can be reproduced using the provided `qwen_eligible_cohort_inference.py` script. The script contains the inference logic, model configuration, input/output handling, structured concept-extraction schema, validation, and resumable processing used to generate the reported results.
+Qwen inference is implemented in [`inference/qwen_inference.py`](inference/qwen_inference.py).
 
-Required files:
+The script runs `Qwen/Qwen3-8B-AWQ` through vLLM in the UCSF IC AWS Secure GPU environment.
 
-- `eligible_progressnotes_BRIM_ready.csv`
-- `BrimVariableExport_lisinopril_eligible.csv`
-- `qwen_eligible_cohort_inference.py`
+The script:
 
-The script runs inference using Qwen/Qwen3-8B-AWQ served through vLLM on the UCSF IC AWS Secure GPU environment and produces:
+- validates the clinical-note input;
+- applies the five concept definitions;
+- requests structured boolean outputs;
+- validates model responses;
+- saves results incrementally;
+- supports resuming incomplete inference; and
+- produces CSV and JSON outputs without including clinical note text.
+
+The resulting output contains:
+
+- `NOTE_ID`
+- `PERSON_ID`
+- `NOTE_DATETIME`
+- `NOTE_TITLE`
+- `CKD_MENTIONED`
+- `ALBUMINURIA_MENTIONED`
+- `HYPERTENSION_MENTIONED`
+- `DIABETIC_NEPHROPATHY_MENTIONED`
+- `LISINOPRIL_MENTIONED`
+
+The Qwen workflow produces:
 
 - `qwen_eligible_cohort_results.csv`
 - `qwen_eligible_cohort_results.json`
-
-The resulting files contain the five document-level variables: `CKD_MENTIONED`, `ALBUMINURIA_MENTIONED`, `HYPERTENSION_MENTIONED`, `DIABETIC_NEPHROPATHY_MENTIONED`, and `LISINOPRIL_MENTIONED`.
-
-The `qwen-vllm-ic-aws` skill documents the required vLLM/IC AWS Secure environment, including the Qwen model, GPU configuration, SSM port forwarding, and smoke tests. Users following the documented environment setup can therefore run the provided script rather than reconstructing the deployment workflow.
 
 ---
 
 ### GPT-OSS-20B Extraction
 
-The GPT-OSS analysis can be reproduced using the provided `eligible_cohort_inference.py` script. The script contains the final inference logic, structured concept-extraction schema, input/output handling, validation, and resumable processing used in this analysis.
+GPT-OSS inference is implemented in [`inference/gpt_oss_inference.py`](inference/gpt_oss_inference.py).
 
-Required files:
+The script uses `openai/gpt-oss-20b` through the UCSF IC FAC AI Deployment Server.
 
-- `eligible_progressnotes_BRIM_ready.csv`
-- `BrimVariableExport_lisinopril_eligible.csv`
-- `eligible_cohort_inference.py`
-- Final CSV/JSON inference outputs
+The script:
 
-The script uses `openai/gpt-oss-20b` through the UCSF IC FAC AI Deployment Server and classifies each Progress Note for five document-level variables: `CKD_MENTIONED`, `ALBUMINURIA_MENTIONED`, `HYPERTENSION_MENTIONED`, `DIABETIC_NEPHROPATHY_MENTIONED`, and `LISINOPRIL_MENTIONED`.
+- uses structured JSON outputs;
+- applies the same five clinical concept definitions;
+- validates model responses;
+- saves results incrementally;
+- supports resuming interrupted inference; and
+- produces both CSV and JSON result files.
 
-To reproduce the results, a user with appropriate IC FAC access should configure the required IC FAC/OpenAI-compatible endpoint environment, activate a Python environment containing the required dependencies, and run the provided inference script on the supplied clinical-note input. The script processes the notes individually, validates the structured model responses, saves results incrementally, and can resume an interrupted run without repeating successfully completed notes.
+The resulting output can be aligned with SQL, BRIM, and Qwen using `NOTE_ID`.
 
 ---
 
@@ -237,7 +274,9 @@ A patient was considered positive for a concept if at least one of their sampled
 
 ## Demographics of Note-Derived Lisinopril-Positive Patients
 
-Patients were classified as note-derived lisinopril-positive if lisinopril was identified in at least one sampled Progress Note. Patients without a detected lisinopril mention were classified as having no lisinopril mention for this analysis.
+Patients were classified as note-derived lisinopril-positive if lisinopril was identified in at least one sampled Progress Note.
+
+Patients without a detected lisinopril mention were classified as having no lisinopril mention for this analysis.
 
 Because only up to two Progress Notes per patient were sampled, absence of a lisinopril mention does **not** necessarily indicate absence of true lisinopril exposure.
 
@@ -331,7 +370,9 @@ Because only up to two Progress Notes per patient were sampled, absence of a lis
 
 Overall, the unstructured clinical-note results were directionally consistent with the structured EHR findings but identified a smaller proportion of patients with lisinopril documentation.
 
-Structured drug-exposure data classified **7,804 of 52,791 eligible CKD patients (14.8%)** as lisinopril-treated. In the clinical-note sample, lisinopril was identified in approximately **9.7–10.6%** of patients, with highly consistent results across SQL, BRIM, GPT-OSS, and Qwen.
+Structured drug-exposure data classified **7,804 of 52,791 eligible CKD patients (14.8%)** as lisinopril-treated.
+
+In the clinical-note sample, lisinopril was identified in approximately **9.7–10.6%** of patients, with highly consistent results across SQL, BRIM, GPT-OSS, and Qwen.
 
 The demographics were also broadly similar. Structured-EHR lisinopril-treated patients had a mean age of 62.31 years and were 59.98% male. Across the four note-extraction approaches, lisinopril-positive patients had mean ages of approximately 59–60 years and were approximately 59–67% male.
 
@@ -350,6 +391,103 @@ The demographics were also broadly similar. Structured-EHR lisinopril-treated pa
 Lisinopril detection was highly consistent across the four note-extraction methods: SQL pattern matching identified 20 patients, BRIM identified 21, GPT-OSS-20B identified 20, and Qwen3-8B-AWQ identified 22.
 
 Structured EHR data is more appropriate for identifying actual treatment exposure because lisinopril may not be mentioned in the limited Progress Notes sampled for a patient. Conversely, clinical notes provide useful complementary information about the clinical context of treatment, but a medication mention alone does not necessarily indicate active use.
+
+---
+
+## Reproducibility
+
+The analysis code is organized into structured EHR cohort construction, clinical-note sampling, and clinical concept extraction.
+
+### Structured EHR Cohort and Effectiveness Analysis
+
+The structured EHR analysis is implemented in [`sql/cohort_treatment_analysis.sql`](sql/cohort_treatment_analysis.sql).
+
+This script:
+
+- constructs the CKD/lisinopril cohort using OMOP condition, drug-exposure, observation-period, and measurement data;
+- applies the cohort eligibility criteria;
+- identifies qualifying lisinopril exposure;
+- extracts baseline and follow-up creatinine measurements; and
+- creates paired creatinine measurements for the treatment-effectiveness analysis.
+
+Baseline creatinine measurements are selected from 365 days before through the index date, and follow-up measurements are selected from 90 through 365 days after the index date.
+
+### Clinical Note Sampling
+
+The clinical-note analytic sample is created using [`sql/eligible_progressnotes_sample.sql`](sql/eligible_progressnotes_sample.sql).
+
+The script starts with the eligible CKD cohort, randomly samples up to 250 patients, and extracts Progress Notes documented from 7 days before through 1 year after cohort entry. Up to two qualifying Progress Notes are retained per patient.
+
+The final analytic sample contained 403 Progress Notes from 207 patients.
+
+### SQL Pattern Matching
+
+Rule-based clinical concept extraction is implemented in [`sql/pattern_matching.sql`](sql/pattern_matching.sql).
+
+The script assigns TRUE/FALSE labels for:
+
+- `CKD_MENTIONED`
+- `ALBUMINURIA_MENTIONED`
+- `HYPERTENSION_MENTIONED`
+- `DIABETIC_NEPHROPATHY_MENTIONED`
+- `LISINOPRIL_MENTIONED`
+
+The same script also calculates note-level and patient-level concept counts.
+
+### BRIM
+
+The BRIM variable definitions used for clinical concept extraction are provided in [`brim/BrimVariableExport_lisinopril_eligible.csv`](brim/BrimVariableExport_lisinopril_eligible.csv).
+
+Clinical notes are standardized to the BRIM schema:
+
+- `NOTE_ID`
+- `PERSON_ID`
+- `NOTE_DATETIME`
+- `NOTE_TEXT`
+- `NOTE_TITLE`
+
+BRIM results can be exported and aligned with the other extraction approaches using `NOTE_ID`.
+
+### Qwen3-8B-AWQ
+
+Qwen inference is implemented in [`inference/qwen_inference.py`](inference/qwen_inference.py).
+
+The script runs `Qwen/Qwen3-8B-AWQ` through vLLM in the UCSF IC AWS Secure GPU environment. It:
+
+- validates the clinical-note input;
+- applies the five concept definitions;
+- requests structured boolean outputs;
+- validates model responses;
+- saves results incrementally;
+- supports resuming incomplete inference; and
+- produces CSV and JSON outputs without including clinical note text.
+
+### GPT-OSS-20B
+
+GPT-OSS inference is implemented in [`inference/gpt_oss_inference.py`](inference/gpt_oss_inference.py).
+
+The script uses `openai/gpt-oss-20b` through the UCSF IC FAC AI Deployment Server. It:
+
+- uses structured JSON outputs;
+- applies the same five clinical concept definitions;
+- validates model responses;
+- saves results incrementally;
+- supports resuming interrupted inference; and
+- produces both CSV and JSON result files.
+
+### Analysis Workflow
+
+The overall reproducible workflow is:
+
+1. Construct the eligible CKD and lisinopril-treated cohorts using [`sql/cohort_treatment_analysis.sql`](sql/cohort_treatment_analysis.sql).
+2. Perform the structured EHR creatinine effectiveness analysis.
+3. Sample eligible-patient Progress Notes using [`sql/eligible_progressnotes_sample.sql`](sql/eligible_progressnotes_sample.sql).
+4. Apply SQL pattern matching using [`sql/pattern_matching.sql`](sql/pattern_matching.sql).
+5. Apply the same concept definitions in BRIM.
+6. Run Qwen3-8B-AWQ using [`inference/qwen_inference.py`](inference/qwen_inference.py).
+7. Run GPT-OSS-20B using [`inference/gpt_oss_inference.py`](inference/gpt_oss_inference.py).
+8. Aggregate note-level classifications to patient-level classifications.
+9. Compare structured EHR lisinopril exposure with note-derived lisinopril documentation.
 
 ---
 
